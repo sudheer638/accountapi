@@ -1,0 +1,16 @@
+#%RAML 1.0
+baseUri: https://anypoint.mulesoft.com/mocking/api/v1/links/d9aa9e9d-2374-405e-97ec-b3ea2b1a7389/ # 
+title: getdetails
+/getDetails:
+  get:
+    queryParameters:
+      accountId: number
+    responses:
+      200:
+        body:
+          application/json:
+            example:
+              {
+                "status":"ok"
+              }  
+    
